@@ -1,0 +1,570 @@
+ [2022-07-16 19:21:08] local.INFO: array (
+  'carrierId' => '1111971',
+  'accountIdType' => 'MSISDN',
+  'accountId' => '233209326284',
+  'shortCode' => '1402',
+)  
+[2022-07-16 19:22:53] local.INFO: array (
+  'carrierId' => '1111971',
+  'accountIdType' => 'MSISDN',
+  'accountId' => '233209326284',
+  'shortCode' => '1402',
+)  
+[2022-07-16 19:23:49] local.INFO: array (
+  'carrierId' => '1111971',
+  'accountIdType' => 'MSISDN',
+  'accountId' => '233209326284',
+  'shortCode' => '1402',
+)  
+[2022-07-16 19:23:51] local.INFO: array (
+  'carrierId' => '1111971',
+  'accountIdType' => 'MSISDN',
+  'accountId' => '233209326284',
+  'shortCode' => '1402',
+)  
+[2022-07-16 19:23:56] local.INFO: array (
+  'carrierId' => '1111971',
+  'accountIdType' => 'MSISDN',
+  'accountId' => '233209326284',
+  'shortCode' => '1402',
+)  
+[2022-07-16 19:24:18] local.INFO: array (
+  'carrierId' => '1111971',
+  'accountIdType' => 'MSISDN',
+  'accountId' => '233209326284',
+  'shortCode' => '1402',
+)  
+[2022-07-16 19:24:39] local.INFO: array (
+  'carrierId' => '1111971',
+  'accountIdType' => 'MSISDN',
+  'accountId' => '233209326284',
+  'shortCode' => '1402',
+)  
+[2022-07-16 19:26:49] local.INFO: array (
+  'carrierId' => '1111971',
+  'accountIdType' => 'MSISDN',
+  'accountId' => '233209326284',
+  'shortCode' => '1402',
+)  
+[2022-07-16 19:32:49] local.ERROR: Cannot redeclare App\Http\Controllers\sms\ReceiveSubscriptionController::stateChange() {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare App\\Http\\Controllers\\sms\\ReceiveSubscriptionController::stateChange() at C:\\Users\\Lord\\Desktop\\lara\\app\\Http\\Controllers\\sms\\ReceiveSubscriptionController.php:101)
+[stacktrace]
+#0 {main}[2022-07-16 19:45:56] local.INFO: array (
+  'carrierId' => '1111971',
+  'accountIdType' => 'MSISDN',
+  'accountId' => '233209326284',
+  'shortCode' => '1402',
+)  
+[2022-07-16 19:59:05] local.INFO: array (
+  'carrierId' => '1111971',
+  'accountIdType' => 'MSISDN',
+  'accountId' => '233209326284',
+  'shortCode' => '1402',
+)  
+[2022-07-16 20:01:19] local.INFO: array (
+  'carrierId' => '1111971',
+  'accountIdType' => 'MSISDN',
+  'accountId' => '233209326284',
+  'shortCode' => '1402',
+)  
+[2022-07-16 20:07:12] local.INFO: array (
+  'carrierId' => '1111971',
+  'accountIdType' => 'MSISDN',
+  'accountId' => '233209326284',
+  'shortCode' => '1402',
+)  
+[2022-07-16 20:09:15] local.INFO: array (
+  'carrierId' => '1111971',
+  'accountIdType' => 'MSISDN',
+  'accountId' => '233209326284',
+  'shortCode' => '1402',
+)  
+[2022-07-16 20:09:49] local.ERROR: cURL error 60: SSL certificate problem: unable to get local issuer certificate (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://jsonplaceholder.typicode.com/posts {"exception":"[object] (GuzzleHttp\\Exception\\RequestException(code: 0): cURL error 60: SSL certificate problem: unable to get local issuer certificate (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://jsonplaceholder.typicode.com/posts at C:\\Users\\Lord\\Desktop\\lara\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlFactory.php:211)
+[stacktrace]
+#0 C:\\Users\\Lord\\Desktop\\lara\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlFactory.php(158): GuzzleHttp\\Handler\\CurlFactory::createRejection(Object(GuzzleHttp\\Handler\\EasyHandle), Array)
+#1 C:\\Users\\Lord\\Desktop\\lara\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlFactory.php(110): GuzzleHttp\\Handler\\CurlFactory::finishError(Object(GuzzleHttp\\Handler\\CurlHandler), Object(GuzzleHttp\\Handler\\EasyHandle), Object(GuzzleHttp\\Handler\\CurlFactory))
+#2 C:\\Users\\Lord\\Desktop\\lara\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlHandler.php(47): GuzzleHttp\\Handler\\CurlFactory::finish(Object(GuzzleHttp\\Handler\\CurlHandler), Object(GuzzleHttp\\Handler\\EasyHandle), Object(GuzzleHttp\\Handler\\CurlFactory))
+#3 C:\\Users\\Lord\\Desktop\\lara\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\Proxy.php(28): GuzzleHttp\\Handler\\CurlHandler->__invoke(Object(GuzzleHttp\\Psr7\\Request), Array)
+#4 C:\\Users\\Lord\\Desktop\\lara\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\Proxy.php(48): GuzzleHttp\\Handler\\Proxy::GuzzleHttp\\Handler\\{closure}(Object(GuzzleHttp\\Psr7\\Request), Array)
+#5 C:\\Users\\Lord\\Desktop\\lara\\vendor\\guzzlehttp\\guzzle\\src\\PrepareBodyMiddleware.php(64): GuzzleHttp\\Handler\\Proxy::GuzzleHttp\\Handler\\{closure}(Object(GuzzleHttp\\Psr7\\Request), Array)
+#6 C:\\Users\\Lord\\Desktop\\lara\\vendor\\guzzlehttp\\guzzle\\src\\Middleware.php(31): GuzzleHttp\\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\\Psr7\\Request), Array)
+#7 C:\\Users\\Lord\\Desktop\\lara\\vendor\\guzzlehttp\\guzzle\\src\\RedirectMiddleware.php(71): GuzzleHttp\\Middleware::GuzzleHttp\\{closure}(Object(GuzzleHttp\\Psr7\\Request), Array)
+#8 C:\\Users\\Lord\\Desktop\\lara\\vendor\\guzzlehttp\\guzzle\\src\\Middleware.php(63): GuzzleHttp\\RedirectMiddleware->__invoke(Object(GuzzleHttp\\Psr7\\Request), Array)
+#9 C:\\Users\\Lord\\Desktop\\lara\\vendor\\guzzlehttp\\guzzle\\src\\HandlerStack.php(75): GuzzleHttp\\Middleware::GuzzleHttp\\{closure}(Object(GuzzleHttp\\Psr7\\Request), Array)
+#10 C:\\Users\\Lord\\Desktop\\lara\\vendor\\guzzlehttp\\guzzle\\src\\Client.php(331): GuzzleHttp\\HandlerStack->__invoke(Object(GuzzleHttp\\Psr7\\Request), Array)
+#11 C:\\Users\\Lord\\Desktop\\lara\\vendor\\guzzlehttp\\guzzle\\src\\Client.php(168): GuzzleHttp\\Client->transfer(Object(GuzzleHttp\\Psr7\\Request), Array)
+#12 C:\\Users\\Lord\\Desktop\\lara\\vendor\\guzzlehttp\\guzzle\\src\\Client.php(187): GuzzleHttp\\Client->requestAsync('POST', Object(GuzzleHttp\\Psr7\\Uri), Array)
+#13 C:\\Users\\Lord\\Desktop\\lara\\app\\Http\\Controllers\\sms\\ReceiveSubscriptionController.php(275): GuzzleHttp\\Client->request('POST', 'https://jsonpla...', Array)
+#14 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\sms\\ReceiveSubscriptionController->guzzelhttp('971')
+#15 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction('guzzelhttp', Array)
+#16 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(262): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\sms\\ReceiveSubscriptionController), 'guzzelhttp')
+#17 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#18 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(721): Illuminate\\Routing\\Route->run()
+#19 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(128): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#20 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(127): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(103): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequest(Object(Illuminate\\Http\\Request), Object(Closure), Array)
+#24 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(55): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequestUsingNamedLimiter(Object(Illuminate\\Http\\Request), Object(Closure), 'api', Object(Closure))
+#25 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Routing\\Middleware\\ThrottleRequests->handle(Object(Illuminate\\Http\\Request), Object(Closure), 'api')
+#26 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#27 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(723): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#28 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(698): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#29 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(662): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#30 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(651): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#31 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(167): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(128): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#40 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 C:\\Users\\Lord\\Desktop\\lara\\vendor\\fruitcake\\laravel-cors\\src\\HandleCors.php(52): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Fruitcake\\Cors\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#46 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#48 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#49 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#50 C:\\Users\\Lord\\Desktop\\lara\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#51 C:\\Users\\Lord\\Desktop\\lara\\server.php(21): require_once('C:\\\\Users\\\\Lord\\\\D...')
+#52 {main}
+"} 
+[2022-07-16 20:10:41] local.ERROR: cURL error 60: SSL certificate problem: unable to get local issuer certificate (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://jsonplaceholder.typicode.com/posts {"exception":"[object] (GuzzleHttp\\Exception\\RequestException(code: 0): cURL error 60: SSL certificate problem: unable to get local issuer certificate (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://jsonplaceholder.typicode.com/posts at C:\\Users\\Lord\\Desktop\\lara\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlFactory.php:211)
+[stacktrace]
+#0 C:\\Users\\Lord\\Desktop\\lara\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlFactory.php(158): GuzzleHttp\\Handler\\CurlFactory::createRejection(Object(GuzzleHttp\\Handler\\EasyHandle), Array)
+#1 C:\\Users\\Lord\\Desktop\\lara\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlFactory.php(110): GuzzleHttp\\Handler\\CurlFactory::finishError(Object(GuzzleHttp\\Handler\\CurlHandler), Object(GuzzleHttp\\Handler\\EasyHandle), Object(GuzzleHttp\\Handler\\CurlFactory))
+#2 C:\\Users\\Lord\\Desktop\\lara\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlHandler.php(47): GuzzleHttp\\Handler\\CurlFactory::finish(Object(GuzzleHttp\\Handler\\CurlHandler), Object(GuzzleHttp\\Handler\\EasyHandle), Object(GuzzleHttp\\Handler\\CurlFactory))
+#3 C:\\Users\\Lord\\Desktop\\lara\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\Proxy.php(28): GuzzleHttp\\Handler\\CurlHandler->__invoke(Object(GuzzleHttp\\Psr7\\Request), Array)
+#4 C:\\Users\\Lord\\Desktop\\lara\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\Proxy.php(48): GuzzleHttp\\Handler\\Proxy::GuzzleHttp\\Handler\\{closure}(Object(GuzzleHttp\\Psr7\\Request), Array)
+#5 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Client\\PendingRequest.php(945): GuzzleHttp\\Handler\\Proxy::GuzzleHttp\\Handler\\{closure}(Object(GuzzleHttp\\Psr7\\Request), Array)
+#6 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Client\\PendingRequest.php(915): Illuminate\\Http\\Client\\PendingRequest->Illuminate\\Http\\Client\\{closure}(Object(GuzzleHttp\\Psr7\\Request), Array)
+#7 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Client\\PendingRequest.php(901): Illuminate\\Http\\Client\\PendingRequest->Illuminate\\Http\\Client\\{closure}(Object(GuzzleHttp\\Psr7\\Request), Array)
+#8 C:\\Users\\Lord\\Desktop\\lara\\vendor\\guzzlehttp\\guzzle\\src\\PrepareBodyMiddleware.php(64): Illuminate\\Http\\Client\\PendingRequest->Illuminate\\Http\\Client\\{closure}(Object(GuzzleHttp\\Psr7\\Request), Array)
+#9 C:\\Users\\Lord\\Desktop\\lara\\vendor\\guzzlehttp\\guzzle\\src\\Middleware.php(37): GuzzleHttp\\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\\Psr7\\Request), Array)
+#10 C:\\Users\\Lord\\Desktop\\lara\\vendor\\guzzlehttp\\guzzle\\src\\RedirectMiddleware.php(71): GuzzleHttp\\Middleware::GuzzleHttp\\{closure}(Object(GuzzleHttp\\Psr7\\Request), Array)
+#11 C:\\Users\\Lord\\Desktop\\lara\\vendor\\guzzlehttp\\guzzle\\src\\Middleware.php(61): GuzzleHttp\\RedirectMiddleware->__invoke(Object(GuzzleHttp\\Psr7\\Request), Array)
+#12 C:\\Users\\Lord\\Desktop\\lara\\vendor\\guzzlehttp\\guzzle\\src\\HandlerStack.php(75): GuzzleHttp\\Middleware::GuzzleHttp\\{closure}(Object(GuzzleHttp\\Psr7\\Request), Array)
+#13 C:\\Users\\Lord\\Desktop\\lara\\vendor\\guzzlehttp\\guzzle\\src\\Client.php(331): GuzzleHttp\\HandlerStack->__invoke(Object(GuzzleHttp\\Psr7\\Request), Array)
+#14 C:\\Users\\Lord\\Desktop\\lara\\vendor\\guzzlehttp\\guzzle\\src\\Client.php(168): GuzzleHttp\\Client->transfer(Object(GuzzleHttp\\Psr7\\Request), Array)
+#15 C:\\Users\\Lord\\Desktop\\lara\\vendor\\guzzlehttp\\guzzle\\src\\Client.php(187): GuzzleHttp\\Client->requestAsync('POST', Object(GuzzleHttp\\Psr7\\Uri), Array)
+#16 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Client\\PendingRequest.php(768): GuzzleHttp\\Client->request('POST', 'https://jsonpla...', Array)
+#17 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Client\\PendingRequest.php(699): Illuminate\\Http\\Client\\PendingRequest->sendRequest('POST', 'https://jsonpla...', Array)
+#18 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php(234): Illuminate\\Http\\Client\\PendingRequest->Illuminate\\Http\\Client\\{closure}(1)
+#19 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Client\\PendingRequest.php(713): retry(0, Object(Closure), 100, NULL)
+#20 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Client\\PendingRequest.php(596): Illuminate\\Http\\Client\\PendingRequest->send('POST', 'https://jsonpla...', Array)
+#21 C:\\Users\\Lord\\Desktop\\lara\\app\\Http\\Controllers\\sms\\ReceiveSubscriptionController.php(158): Illuminate\\Http\\Client\\PendingRequest->post('https://jsonpla...', Array)
+#22 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\sms\\ReceiveSubscriptionController->index('971')
+#23 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction('index', Array)
+#24 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(262): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\sms\\ReceiveSubscriptionController), 'index')
+#25 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#26 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(721): Illuminate\\Routing\\Route->run()
+#27 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(128): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(127): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(103): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequest(Object(Illuminate\\Http\\Request), Object(Closure), Array)
+#32 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(55): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequestUsingNamedLimiter(Object(Illuminate\\Http\\Request), Object(Closure), 'api', Object(Closure))
+#33 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Routing\\Middleware\\ThrottleRequests->handle(Object(Illuminate\\Http\\Request), Object(Closure), 'api')
+#34 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(723): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#36 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(698): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(662): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#38 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(651): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#39 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(167): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#40 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(128): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#41 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#48 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#49 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#50 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#51 C:\\Users\\Lord\\Desktop\\lara\\vendor\\fruitcake\\laravel-cors\\src\\HandleCors.php(52): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#52 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Fruitcake\\Cors\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#53 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#54 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#55 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#56 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#57 C:\\Users\\Lord\\Desktop\\lara\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#58 C:\\Users\\Lord\\Desktop\\lara\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#59 C:\\Users\\Lord\\Desktop\\lara\\server.php(21): require_once('C:\\\\Users\\\\Lord\\\\D...')
+#60 {main}
+"} 
+[2022-07-16 20:47:40] local.INFO: array (
+  'carrierId' => '1111971',
+  'accountIdType' => 'MSISDN',
+  'accountId' => '233209326284',
+  'shortCode' => '1402',
+)  
+[2022-07-16 20:47:40] local.INFO: array (
+  'carrierId' => '1111971',
+  'accountIdType' => 'MSISDN',
+  'accountId' => '233209326284',
+  'shortCode' => '1402',
+)  
+[2022-07-17 00:41:27] local.INFO: array (
+  'externalServiceId' => '233244731751',
+  'requestId' => 's11129030624210325',
+  'requestTimeStamp' => '20220716115957',
+  'channel' => '2',
+  'requestParam' => 
+  array (
+    'data' => 
+    array (
+      0 => 
+      array (
+        'name' => 'Msisdn',
+        'value' => '244731751',
+      ),
+      1 => 
+      array (
+        'name' => 'OfferCode',
+        'value' => '9916110008',
+      ),
+      2 => 
+      array (
+        'name' => 'TransactionId',
+        'value' => 's11129030624210325',
+      ),
+      3 => 
+      array (
+        'name' => 'ClientTransactionId',
+        'value' => 'rrt-4131271733139796627-a-geu2-17855-98961417-1',
+      ),
+      4 => 
+      array (
+        'name' => 'Channel',
+        'value' => '2',
+      ),
+      5 => 
+      array (
+        'name' => 'Type',
+        'value' => 'CONTENT_CHARGE',
+      ),
+      6 => 
+      array (
+        'name' => 'SubscriptionStatus',
+        'value' => 'D',
+      ),
+      7 => 
+      array (
+        'name' => 'ChargeAmount',
+        'value' => '0.20',
+      ),
+      8 => 
+      array (
+        'name' => 'BillingId',
+        'value' => 's11129030639607934',
+      ),
+      9 => 
+      array (
+        'name' => 'SubscriberLifeCycle',
+        'value' => 'UNSUB1',
+      ),
+    ),
+    'planId' => '9916110008',
+    'command' => 'NotifyCharging',
+  ),
+  'featureId' => 'CallBack',
+)  
+
+
+[2022-07-17 00:52:23] local.INFO: array (
+  'action' => 'DELETION',
+  'serviceName' => 'GOSPEL',
+  'body' => 
+  Illuminate\Http\Request::__set_state(array(
+     'json' => NULL,
+     'convertedFiles' => 
+    array (
+    ),
+     'userResolver' => 
+    Closure::__set_state(array(
+    )),
+     'routeResolver' => 
+    Closure::__set_state(array(
+    )),
+     'attributes' => 
+    Symfony\Component\HttpFoundation\ParameterBag::__set_state(array(
+       'parameters' => 
+      array (
+      ),
+    )),
+     'request' => 
+    Symfony\Component\HttpFoundation\InputBag::__set_state(array(
+       'parameters' => 
+      array (
+      ),
+    )),
+     'query' => 
+    Symfony\Component\HttpFoundation\InputBag::__set_state(array(
+       'parameters' => 
+      array (
+        'carrierId' => '1111971',
+        'accountIdType' => 'MSISDN',
+        'accountId' => '233209326284',
+        'shortCode' => '1402',
+      ),
+    )),
+     'server' => 
+    Symfony\Component\HttpFoundation\ServerBag::__set_state(array(
+       'parameters' => 
+      array (
+        'DOCUMENT_ROOT' => 'C:\\Users\\Lord\\Desktop\\lara\\public',
+        'REMOTE_ADDR' => '127.0.0.1',
+        'REMOTE_PORT' => '58303',
+        'SERVER_SOFTWARE' => 'PHP 7.4.0 Development Server',
+        'SERVER_PROTOCOL' => 'HTTP/1.1',
+        'SERVER_NAME' => '127.0.0.1',
+        'SERVER_PORT' => '8000',
+        'REQUEST_URI' => '/api/v1/receive-sub/971?carrierId=1111971&accountIdType=MSISDN&accountId=233209326284&shortCode=1402',
+        'REQUEST_METHOD' => 'DELETE',
+        'SCRIPT_NAME' => '/index.php',
+        'SCRIPT_FILENAME' => 'C:\\Users\\Lord\\Desktop\\lara\\public\\index.php',
+        'PATH_INFO' => '/api/v1/receive-sub/971',
+        'PHP_SELF' => '/index.php/api/v1/receive-sub/971',
+        'QUERY_STRING' => 'carrierId=1111971&accountIdType=MSISDN&accountId=233209326284&shortCode=1402',
+        'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.0',
+        'HTTP_ACCEPT' => '*/*',
+        'HTTP_CACHE_CONTROL' => 'no-cache',
+        'HTTP_POSTMAN_TOKEN' => 'b983f4ea-57d6-48fd-899b-cd334b1a8d1a',
+        'HTTP_HOST' => '127.0.0.1:8000',
+        'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+        'HTTP_CONNECTION' => 'keep-alive',
+        'REQUEST_TIME_FLOAT' => 1658019143.337409,
+        'REQUEST_TIME' => 1658019143,
+      ),
+    )),
+     'files' => 
+    Symfony\Component\HttpFoundation\FileBag::__set_state(array(
+       'parameters' => 
+      array (
+      ),
+    )),
+     'cookies' => 
+    Symfony\Component\HttpFoundation\InputBag::__set_state(array(
+       'parameters' => 
+      array (
+      ),
+    )),
+     'headers' => 
+    Symfony\Component\HttpFoundation\HeaderBag::__set_state(array(
+       'headers' => 
+      array (
+        'user-agent' => 
+        array (
+          0 => 'PostmanRuntime/7.29.0',
+        ),
+        'accept' => 
+        array (
+          0 => '*/*',
+        ),
+        'cache-control' => 
+        array (
+          0 => 'no-cache',
+        ),
+        'postman-token' => 
+        array (
+          0 => 'b983f4ea-57d6-48fd-899b-cd334b1a8d1a',
+        ),
+        'host' => 
+        array (
+          0 => '127.0.0.1:8000',
+        ),
+        'accept-encoding' => 
+        array (
+          0 => 'gzip, deflate, br',
+        ),
+        'connection' => 
+        array (
+          0 => 'keep-alive',
+        ),
+      ),
+       'cacheControl' => 
+      array (
+        'no-cache' => true,
+      ),
+    )),
+     'content' => NULL,
+     'languages' => NULL,
+     'charsets' => NULL,
+     'encodings' => NULL,
+     'acceptableContentTypes' => NULL,
+     'pathInfo' => '/api/v1/receive-sub/971',
+     'requestUri' => '/api/v1/receive-sub/971?carrierId=1111971&accountIdType=MSISDN&accountId=233209326284&shortCode=1402',
+     'baseUrl' => '',
+     'basePath' => NULL,
+     'method' => 'DELETE',
+     'format' => NULL,
+     'session' => NULL,
+     'locale' => NULL,
+     'defaultLocale' => 'en',
+     'preferredFormat' => NULL,
+     'isHostValid' => true,
+     'isForwardedValid' => true,
+     'isSafeContentPreferred' => NULL,
+  )),
+  'serviceid' => '971',
+)  
+[2022-07-17 00:54:26] local.INFO: array (
+  'action' => 'DELETION',
+  'serviceName' => 'GOSPEL',
+  'body' => '',
+  'serviceid' => '971',
+)  
+[2022-07-17 00:56:22] local.INFO: {"externalServiceId":"233244731751","requestId":"s11129030624210325","requestTimeStamp":"20220716115957","channel":"2","requestParam":{"data":[{"name":"Msisdn","value":"244731751"},{"name":"OfferCode","value":"9916110008"},{"name":"TransactionId","value":"s11129030624210325"},{"name":"ClientTransactionId","value":"rrt-4131271733139796627-a-geu2-17855-98961417-1"},{"name":"Channel","value":"2"},{"name":"Type","value":"CONTENT_CHARGE"},{"name":"SubscriptionStatus","value":"D"},{"name":"ChargeAmount","value":"0.20"},{"name":"BillingId","value":"s11129030639607934"},{"name":"SubscriberLifeCycle","value":"UNSUB1"}],"planId":"9916110008","command":"NotifyCharging"},"featureId":"CallBack"}  
+[2022-07-17 22:07:27] local.INFO: array (
+  'action' => 'DELETION',
+  'serviceName' => 'GOSPEL',
+  'carrierId' => '1111971',
+  'serviceid' => '971',
+  'accountIdType' => 'MSISDN',
+  'accountId' => '233209326284',
+  'shortCode' => '1402',
+  'body' => '',
+)  
+[2022-07-17 22:58:13] local.INFO: array (
+  'merchantId' => 'XYZ',
+  'carrierId' => 'VDF_Ghana',
+  'shortCode' => '625001',
+  'accountInfo' => 
+  array (
+    'accountIdType' => 'MSISDN',
+    'accountId' => '233546512000',
+  ),
+  'smsText' => 'DCB: TEXT',
+  'carrierTransactionId' => '7001474976385954321',
+)  
+[2022-07-17 22:58:13] local.INFO: array (
+  'merchantId' => 'XYZ',
+  'carrierId' => 'VDF_Ghana',
+  'shortCode' => '625001',
+  'accountInfo' => 
+  array (
+    'accountIdType' => 'MSISDN',
+    'accountId' => '233546512000',
+  ),
+  'smsText' => 'DCB: TEXT',
+  'carrierTransactionId' => '7001474976385954321',
+)  
+[2022-07-17 22:59:24] local.INFO: {
+ "merchantId": "XYZ",
+ "carrierId": "VDF_Ghana",
+ "shortCode": "625001",
+ "accountInfo": {
+ "accountIdType": "MSISDN",
+ "accountId": "233546512000"
+ },
+ "smsText": "DCB: TEXT",
+ "carrierTransactionId": "7001474976385954321"
+}
+  
+[2022-07-17 22:59:24] local.INFO: {
+ "merchantId": "XYZ",
+ "carrierId": "VDF_Ghana",
+ "shortCode": "625001",
+ "accountInfo": {
+ "accountIdType": "MSISDN",
+ "accountId": "233546512000"
+ },
+ "smsText": "DCB: TEXT",
+ "carrierTransactionId": "7001474976385954321"
+}
+  
+[2022-07-17 23:02:29] local.INFO: array (
+  'action' => 'SUBSCRIPTION',
+  'serviceName' => 'GOSPEL',
+  'serviceid' => '971',
+  'body' => '{
+ "merchantId": "XYZ",
+ "carrierId": "VDF_Ghana",
+ "shortCode": "625001",
+ "accountInfo": {
+ "accountIdType": "MSISDN",
+ "accountId": "233546512000"
+ },
+ "smsText": "DCB: TEXT",
+ "carrierTransactionId": "7001474976385954321"
+}
+',
+)  
+[2022-07-17 23:04:31] local.INFO: array (
+  'action' => 'SUBSCRIPTION',
+  'serviceName' => 'GOSPEL',
+  'serviceid' => '971',
+  'body' => '"{\\r\\n \\"merchantId\\": \\"XYZ\\",\\r\\n \\"carrierId\\": \\"VDF_Ghana\\",\\r\\n \\"shortCode\\": \\"625001\\",\\r\\n \\"accountInfo\\": {\\r\\n \\"accountIdType\\": \\"MSISDN\\",\\r\\n \\"accountId\\": \\"233546512000\\"\\r\\n },\\r\\n \\"smsText\\": \\"DCB: TEXT\\",\\r\\n \\"carrierTransactionId\\": \\"7001474976385954321\\"\\r\\n}\\r\\n"',
+)  
+[2022-07-17 23:05:09] local.INFO: array (
+  'action' => 'SUBSCRIPTION',
+  'serviceName' => 'GOSPEL',
+  'serviceid' => '971',
+  'body' => 
+  array (
+    'merchantId' => 'XYZ',
+    'carrierId' => 'VDF_Ghana',
+    'shortCode' => '625001',
+    'accountInfo' => 
+    array (
+      'accountIdType' => 'MSISDN',
+      'accountId' => '233546512000',
+    ),
+    'smsText' => 'DCB: TEXT',
+    'carrierTransactionId' => '7001474976385954321',
+  ),
+)  
+[2022-07-18 16:34:51] local.INFO: array (
+  'action' => 'SUBSCRIPTION',
+  'serviceName' => 'GOSPEL',
+  'serviceid' => '971',
+  'body' => 
+  array (
+    'merchantId' => 'XYZ',
+    'carrierId' => 'VDF_Ghana',
+    'shortCode' => '625001',
+    'accountInfo' => 
+    array (
+      'accountIdType' => 'MSISDN',
+      'accountId' => '233546512000',
+    ),
+    'smsText' => 'DCB: TEXT',
+    'carrierTransactionId' => '7001474976385954321',
+  ),
+)  
+[2022-07-18 16:37:15] local.INFO: array (
+  'action' => 'SUBSCRIPTION',
+  'serviceName' => 'GOSPEL',
+  'serviceid' => '971',
+  'body' => 
+  array (
+    'merchantId' => 'XYZ',
+    'carrierId' => 'VDF_Ghana',
+    'shortCode' => '625001',
+    'accountInfo' => 
+    array (
+      'accountIdType' => 'MSISDN',
+      'accountId' => '233546512000',
+    ),
+    'smsText' => 'DCB: TEXT',
+    'carrierTransactionId' => '7001474976385954321',
+  ),
+)  
+[2022-07-18 16:37:15] local.INFO: {
+ "merchantId": "XYZ",
+ "carrierId": "VDF_Ghana",
+ "shortCode": "625001",
+ "accountInfo": {
+ "accountIdType": "MSISDN",
+ "accountId": "233546512000"
+ },
+ "smsText": "DCB: TEXT",
+ "carrierTransactionId": "7001474976385954321"
+}
+  
